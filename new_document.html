@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Add Document</title>
+</head>
+<body>
+<h1>Add Document</h1>
+<form action="/save" method="post" th:object="${document}">
+    <label>ID:</label>
+    <input type="text" th:field

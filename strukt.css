@@ -1,0 +1,30 @@
+document-management/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com/
+│   │   │   │   ├── example/
+│   │   │   │   │   ├── documentmanagement/
+│   │   │   │   │   │   ├── DocumentManagementApplication.java
+│   │   │   │   │   │   ├── controller/
+│   │   │   │   │   │   │   └── DocumentController.java
+│   │   │   │   │   │   ├── model/
+│   │   │   │   │   │   │   ├── Document.java
+│   │   │   │   │   │   │   ├── AbstractDocument.java
+│   │   │   │   │   │   │   ├── Invoice.java
+│   │   │   │   │   │   │   ├── Report.java
+│   │   │   │   │   │   ├── repository/
+│   │   │   │   │   │   │   └── DocumentRepository.java
+│   │   │   │   │   │   ├── service/
+│   │   │   │   │   │   │   └── DocumentService.java
+│   │   ├── resources/
+│   │   │   ├── application.properties
+│   │   │   ├── templates/
+│   │   │   │   ├── index.html
+│   │   │   │   ├── new_document.html
+│   │   │   ├── static/
+│   │   │   │   └── css/
+│   │   │   │       └── styles.css
+├── pom.xml
+└── README.md
